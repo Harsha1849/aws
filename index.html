@@ -8,6 +8,17 @@
 </head>
 <body>
     <header>
+        <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navMenu = document.querySelector('nav ul');
+
+        menuToggle.addEventListener('click', function () {
+            navMenu.classList.toggle('active');
+        });
+    });
+</script>
+
         <div class="logo">
             <h1>MyWebsite</h1>
         </div>
